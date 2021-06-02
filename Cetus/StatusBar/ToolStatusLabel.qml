@@ -8,7 +8,7 @@ Label {
     verticalAlignment: Text.AlignVCenter
     text: d.valid ? qsTr("Tool: %1, Offset:")
                     .arg(d.toolId)
-                    + (d.lathe ? " z%4 x%2, ø: %3" : " %2, ø: %3")
+                    + (d.lathe ? " z%4 x%2" : " %2, ø: %3")
                     .arg((d.offset.z * d.distanceFactor).toFixed(d.mmActive ? 3 : 4))
                     .arg((d.diameter * d.distanceFactor).toFixed(d.mmActive ? 3 : 4))
                     .arg((d.offset.x * d.distanceFactor).toFixed(d.mmActive ? 3 : 4))
