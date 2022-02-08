@@ -19,6 +19,22 @@
         <translation>&amp;Файл</translation>
     </message>
     <message>
+        <source>&amp;Edit..</source>
+        <translation type="vanished">&amp;Редактировать..</translation>
+    </message>
+    <message>
+        <source>&amp;Disconnect</source>
+        <translation type="vanished">&amp;Отключить</translation>
+    </message>
+    <message>
+        <source>Sh&amp;utdown</source>
+        <translation type="vanished">&amp;Неисправность</translation>
+    </message>
+    <message>
+        <source>E&amp;xit</source>
+        <translation type="vanished">В&amp;ыход</translation>
+    </message>
+    <message>
         <source>&amp;Machine</source>
         <translation>&amp;Машина</translation>
     </message>
@@ -95,20 +111,36 @@
         <translation>Прервать сессию</translation>
     </message>
     <message>
-        <source>E&amp;xit User Interace</source>
-        <translation type="vanished">Выйти из пользовательского интерфейса</translation>
-    </message>
-    <message>
         <source>E&amp;xit User Interface</source>
-        <translation type="unfinished"></translation>
+        <translation>Выйти из пользовательского интерфейса</translation>
     </message>
     <message>
         <source>Show &amp;spindle speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Показать скорость шпинделя</translation>
     </message>
 </context>
 <context>
     <name>ApplicationStatusBar</name>
+    <message>
+        <source>Not connected</source>
+        <translation type="vanished">Нет соединения</translation>
+    </message>
+    <message>
+        <source>No Tool</source>
+        <translation type="vanished">Нет инструмента</translation>
+    </message>
+    <message>
+        <source>Position: </source>
+        <translation type="vanished">Положение:</translation>
+    </message>
+    <message>
+        <source>Relative Actual</source>
+        <translation type="vanished">Относительное значение</translation>
+    </message>
+    <message>
+        <source>Machine Actual</source>
+        <translation type="vanished">Фактическое значение</translation>
+    </message>
     <message>
         <source></source>
         <translation></translation>
@@ -118,18 +150,18 @@
     <name>AxisControls</name>
     <message>
         <source>Axis</source>
-        <translation type="unfinished">Ось</translation>
+        <translation>Ось</translation>
     </message>
     <message>
         <source>Jog Velocity</source>
-        <translation type="unfinished">Скорость толчкового режима</translation>
+        <translation>Скорость толчкового режима</translation>
     </message>
 </context>
 <context>
     <name>Cetus</name>
     <message>
         <source>DRO</source>
-        <translation>DRO</translation>
+        <translation>цифровая индикация положения по осям</translation>
     </message>
     <message>
         <source>Preview</source>
@@ -170,7 +202,7 @@
     <name>CoolantControls</name>
     <message>
         <source>Coolant</source>
-        <translation type="unfinished"></translation>
+        <translation>Кулер</translation>
     </message>
 </context>
 <context>
@@ -188,6 +220,21 @@
     </message>
 </context>
 <context>
+    <name>ExtensionTabs</name>
+    <message>
+        <source>Webcam</source>
+        <translation type="vanished">Вебкамера</translation>
+    </message>
+    <message>
+        <source>No webcam connected.</source>
+        <translation type="vanished">Веб-камера не подключена.</translation>
+    </message>
+    <message>
+        <source>Turn on the switch.</source>
+        <translation type="vanished">Включите переключатель.</translation>
+    </message>
+</context>
+<context>
     <name>FeedrateControl</name>
     <message>
         <source>Feed Override</source>
@@ -198,30 +245,30 @@
     <name>GantryConfigControl</name>
     <message>
         <source>X1 [plug X] offset:</source>
-        <translation type="unfinished"></translation>
+        <translation>X1 [plug X] отступ:</translation>
     </message>
     <message>
         <source> X2 [plug C] offset:</source>
-        <translation type="unfinished"></translation>
+        <translation> X2 [plug C] отступ:</translation>
     </message>
 </context>
 <context>
     <name>MachineStatusLabel</name>
     <message>
         <source>ESTOP</source>
-        <translation type="unfinished"></translation>
+        <translation>Кнопка экстренной остановки</translation>
     </message>
     <message>
         <source>OFF</source>
-        <translation type="unfinished"></translation>
+        <translation>ВЫКЛ</translation>
     </message>
     <message>
         <source>ON</source>
-        <translation type="unfinished"></translation>
+        <translation>ВКЛ</translation>
     </message>
     <message>
         <source>Not connected</source>
-        <translation type="unfinished"></translation>
+        <translation>Нет соединения</translation>
     </message>
 </context>
 <context>
@@ -258,7 +305,7 @@
     <name>MdiTab</name>
     <message>
         <source>MDI</source>
-        <translation>MDI</translation>
+        <translation>Ручной ввод данных</translation>
     </message>
     <message>
         <source>Active GCodes</source>
@@ -269,15 +316,15 @@
     <name>PositionOffsetLabel</name>
     <message>
         <source>Position: </source>
-        <translation type="unfinished"></translation>
+        <translation>Положение</translation>
     </message>
     <message>
         <source>Relative Actual</source>
-        <translation type="unfinished"></translation>
+        <translation>Относительное значение</translation>
     </message>
     <message>
         <source>Machine Actual</source>
-        <translation type="unfinished"></translation>
+        <translation>Фактическое значение</translation>
     </message>
 </context>
 <context>
@@ -327,75 +374,75 @@
     </message>
     <message>
         <source>Probe</source>
-        <translation>Зонд</translation>
+        <translation>Образец</translation>
     </message>
 </context>
 <context>
     <name>RapidrateControl</name>
     <message>
         <source>Rapid Override</source>
-        <translation type="unfinished">Быстрое перерегулирование</translation>
+        <translation>Быстрая блокировка</translation>
     </message>
 </context>
 <context>
     <name>SpindleControls</name>
     <message>
         <source>Spindle</source>
-        <translation type="unfinished">Шпиндель</translation>
+        <translation>Шпиндель</translation>
     </message>
 </context>
 <context>
     <name>SpindlerateControl</name>
     <message>
         <source>Spindle Override</source>
-        <translation type="unfinished">Перерегулирование шпинделя</translation>
+        <translation>Блокировка шпинделя</translation>
     </message>
 </context>
 <context>
     <name>StyledDroBase</name>
     <message>
         <source>DRO</source>
-        <translation type="unfinished">DRO</translation>
+        <translation>цифровая индикация положения по осям</translation>
     </message>
     <message>
         <source>Position</source>
-        <translation type="unfinished"></translation>
+        <translation>Положение</translation>
     </message>
     <message>
         <source>Distance to Go</source>
-        <translation type="unfinished"></translation>
+        <translation>Расстояние до</translation>
     </message>
     <message>
         <source>Rad</source>
-        <translation type="unfinished"></translation>
+        <translation>Радиус</translation>
     </message>
     <message>
         <source>Dia</source>
-        <translation type="unfinished"></translation>
+        <translation>Диаметр</translation>
     </message>
     <message>
         <source>Extra</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавить</translation>
     </message>
     <message>
         <source>Vel</source>
-        <translation type="unfinished"></translation>
+        <translation>Фактическая скорость движения</translation>
     </message>
     <message>
         <source>DTG</source>
-        <translation type="unfinished"></translation>
+        <translation>Расстояние</translation>
     </message>
     <message>
         <source>%1 Offsets</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 Отступы</translation>
     </message>
     <message>
         <source>G92 Offsets</source>
-        <translation type="unfinished"></translation>
+        <translation>G92 Отступы</translation>
     </message>
     <message>
         <source>Tool Offsets</source>
-        <translation type="unfinished"></translation>
+        <translation>Изменение инструмента</translation>
     </message>
     <message>
         <source>S%1</source>
@@ -403,14 +450,21 @@
     </message>
 </context>
 <context>
+    <name>ToggleSettingAction</name>
+    <message>
+        <source>Group Value</source>
+        <translation type="vanished">Значение группы</translation>
+    </message>
+</context>
+<context>
     <name>ToolStatusLabel</name>
     <message>
         <source>Tool: %1, Offset:</source>
-        <translation type="unfinished"></translation>
+        <translation>Инструмент: %1, отступ:</translation>
     </message>
     <message>
         <source>No Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Нет инструмента</translation>
     </message>
 </context>
 <context>

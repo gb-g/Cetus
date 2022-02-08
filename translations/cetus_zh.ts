@@ -19,6 +19,22 @@
         <translation>&amp;文档</translation>
     </message>
     <message>
+        <source>&amp;Edit..</source>
+        <translation type="vanished">&amp;编辑..</translation>
+    </message>
+    <message>
+        <source>&amp;Disconnect</source>
+        <translation type="vanished">&amp;断开连接</translation>
+    </message>
+    <message>
+        <source>Sh&amp;utdown</source>
+        <translation type="vanished">&amp;关机</translation>
+    </message>
+    <message>
+        <source>E&amp;xit</source>
+        <translation type="vanished">&amp;退出</translation>
+    </message>
+    <message>
         <source>&amp;Machine</source>
         <translation>&amp;机器</translation>
     </message>
@@ -83,12 +99,16 @@
         <translation>关于 Cetus 软件</translation>
     </message>
     <message>
+        <source>Open file from machine...</source>
+        <translation type="vanished">从机器打开文档...</translation>
+    </message>
+    <message>
         <source>&amp;Disconnect from Session</source>
         <translation>从对话断开</translation>
     </message>
     <message>
         <source>Sh&amp;utdown Session</source>
-        <translation>关机</translation>
+        <translation>关闭对话</translation>
     </message>
     <message>
         <source>E&amp;xit User Interface</source>
@@ -101,6 +121,26 @@
 </context>
 <context>
     <name>ApplicationStatusBar</name>
+    <message>
+        <source>Not connected</source>
+        <translation type="vanished">未连接</translation>
+    </message>
+    <message>
+        <source>No Tool</source>
+        <translation type="vanished">无刀具</translation>
+    </message>
+    <message>
+        <source>Position: </source>
+        <translation type="vanished">位置:</translation>
+    </message>
+    <message>
+        <source>Relative Actual</source>
+        <translation type="vanished">相对实际坐标</translation>
+    </message>
+    <message>
+        <source>Machine Actual</source>
+        <translation type="vanished">机床实际坐标</translation>
+    </message>
     <message>
         <source></source>
         <translation></translation>
@@ -121,7 +161,7 @@
     <name>Cetus</name>
     <message>
         <source>DRO</source>
-        <translation>相对零点偏置范围</translation>
+        <translation>DRO数显</translation>
     </message>
     <message>
         <source>Preview</source>
@@ -130,6 +170,21 @@
     <message>
         <source>Webcam</source>
         <translation>网络摄像头</translation>
+    </message>
+</context>
+<context>
+    <name>ConfigurationPanel</name>
+    <message>
+        <source>Feed Override</source>
+        <translation type="vanished">进给倍率</translation>
+    </message>
+    <message>
+        <source>Spindle Override</source>
+        <translation type="vanished">主轴倍率</translation>
+    </message>
+    <message>
+        <source>Maximum Velocity</source>
+        <translation type="vanished">最大速度</translation>
     </message>
 </context>
 <context>
@@ -154,6 +209,13 @@
     </message>
 </context>
 <context>
+    <name>ExtensionTabs</name>
+    <message>
+        <source>Webcam</source>
+        <translation type="vanished">网络摄像头</translation>
+    </message>
+</context>
+<context>
     <name>FeedrateControl</name>
     <message>
         <source>Feed Override</source>
@@ -164,11 +226,11 @@
     <name>GantryConfigControl</name>
     <message>
         <source>X1 [plug X] offset:</source>
-        <translation type="unfinished"></translation>
+        <translation>X1 [plug X] 偏移:</translation>
     </message>
     <message>
         <source> X2 [plug C] offset:</source>
-        <translation type="unfinished"></translation>
+        <translation> X2 [plug C] 偏移:</translation>
     </message>
 </context>
 <context>
@@ -195,6 +257,22 @@
     <message>
         <source>Manual</source>
         <translation>指南</translation>
+    </message>
+    <message>
+        <source>Axis</source>
+        <translation type="vanished">轴</translation>
+    </message>
+    <message>
+        <source>Jog Velocity</source>
+        <translation type="vanished">微动速度</translation>
+    </message>
+    <message>
+        <source>Machine</source>
+        <translation type="vanished">机器</translation>
+    </message>
+    <message>
+        <source>Spindle</source>
+        <translation type="vanished">主轴</translation>
     </message>
 </context>
 <context>
@@ -353,10 +431,17 @@
     </message>
 </context>
 <context>
+    <name>ToggleSettingAction</name>
+    <message>
+        <source>Group Value</source>
+        <translation type="vanished">组值</translation>
+    </message>
+</context>
+<context>
     <name>ToolStatusLabel</name>
     <message>
-        <source>Tool %1, offset: %2, diameter: %3</source>
-        <translation>工具 %1, 偏置 %2, 直径 %3</translation>
+        <source>Tool: %1, Offset:</source>
+        <translation>工具 %1, 偏置:</translation>
     </message>
     <message>
         <source>No Tool</source>
